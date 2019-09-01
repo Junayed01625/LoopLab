@@ -1,0 +1,58 @@
+.navbar{
+  border-bottom: 2px solid   #00fdd7;
+  background: #292b2c;
+  opacity: .7;
+}
+body{
+  background: #333;
+  color: #fff;
+}
+#home-section{
+  background: url('../img/home.jpg') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+}
+.dark-overlay{
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 700px;
+}
+.fa{
+  background: #fff;
+  color:#008ed6;
+  padding: 3px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.card-form{
+  opacity: 0.8;
+}
+.home-inner{
+  padding-top:120px;
+}
+#create-section{
+  background-color: #fff;
+}
+#create-main-section{
+  .fa{
+    background: #fff;
+    color:#008ed6;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+}
+
+
+
+
+
+
+
+@@media (max-width: 768px) {
+  #home-section h1{
+    font-size: 36px;
+
+  }
+}
